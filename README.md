@@ -1,12 +1,44 @@
-# React + Vite
+AI Safety Dashboard
+A contemporary dashboard designed to monitor and report AI safety incidents, complete with dark and light theme toggling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features
+Browse, filter, and organize AI safety incidents
 
-Currently, two official plugins are available:
+Submit new incident reports with assigned severity levels
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Seamlessly switch between dark and light themes
 
-## Expanding the ESLint configuration
+Fully responsive layout for all device sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Expandable sections to view detailed incident information
+
+🛠 Technology Stack
+Framework: React 18 + Javascript
+
+Styling: CSS Modules utilizing CSS Variables
+
+State Management: Built-in React Hooks
+
+Build System: Create React App
+(Vite is recommended for future projects)
+
+Testing: (Optional) Jest and React Testing Library
+
+🚀 Getting Started
+Requirements
+Node.js (version 16 or above)
+
+npm (v8+) or yarn
+
+Steps to Set Up
+Clone the repository:
+
+git clone https://github.com/aakash-kumar-singh/Ai-Safety-Incident-Dashboard.git
+cd Ai-safety
+Install project dependencies:
+
+npm install
+
+Launch the development server:
+
+npm run dev
